@@ -1,0 +1,8 @@
+2a60927148abd1d33b818b535e306557
+::res://::1692621971
+drums.png::CompressedTexture2D::7175185122529241330::1692621669::1692621727::1::::<><>::
+icon.svg::CompressedTexture2D::74016834720655719::1692621669::1692621727::1::::<><>::
+main.tscn::PackedScene::6166763686993181598::1692621669::0::1::::<><>::uid://2a5bef1rvlp2
+note.gd::GDScript::-1::1692621669::0::1::::<>Sprite2D<>::
+note.png::CompressedTexture2D::7469001536037449133::1692621669::1692621727::1::::<><>::
+note.tscn::PackedScene::1896922292826073213::1692621669::0::1::::<><>::uid://deobmm4frdkhp<>res://note.gd
