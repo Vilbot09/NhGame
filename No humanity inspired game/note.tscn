@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://2a5bef1rvlp2"]
+
+[ext_resource type="Texture2D" uid="uid://deobmm4frdkhp" path="res://note.png" id="1_2pi4b"]
+[ext_resource type="Script" path="res://note.gd" id="2_ih2yr"]
+
+[node name="Note" type="Sprite2D"]
+texture_filter = 1
+position = Vector2(132, 148)
+texture = ExtResource("1_2pi4b")
+script = ExtResource("2_ih2yr")
