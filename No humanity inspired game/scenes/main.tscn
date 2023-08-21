@@ -1,0 +1,20 @@
+[gd_scene load_steps=3 format=3 uid="uid://cl28q5d3xogqc"]
+
+[ext_resource type="PackedScene" path="res://scenes/note.tscn" id="1_2yvtw"]
+[ext_resource type="PackedScene" uid="uid://ceu6t6du0n8lm" path="res://scenes/drums.tscn" id="2_xntlu"]
+
+[node name="main" type="Node2D"]
+
+[node name="Background" type="ColorRect" parent="."]
+z_index = -10
+offset_left = -16.0
+offset_top = -16.0
+offset_right = 408.0
+offset_bottom = 312.0
+color = Color(0.411765, 0.305882, 1, 1)
+
+[node name="Cursor" parent="." instance=ExtResource("1_2yvtw")]
+top_level = true
+
+[node name="Drums" parent="." instance=ExtResource("2_xntlu")]
+position = Vector2(320, 112)

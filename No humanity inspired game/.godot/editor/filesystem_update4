@@ -1,1 +1,5 @@
 res://main.tscn
+res://scenes/main.tscn
+res://note.gd
+res://scenes/drums.tscn
+res://scripts/drums.gd

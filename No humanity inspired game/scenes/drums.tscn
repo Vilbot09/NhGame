@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://ceu6t6du0n8lm"]
+
+[ext_resource type="Texture2D" uid="uid://dahyir07remgg" path="res://drums.png" id="1_jh7pv"]
+[ext_resource type="Script" path="res://scripts/drums.gd" id="2_qwsxl"]
+
+[node name="Drums" type="Sprite2D"]
+texture_filter = 1
+texture = ExtResource("1_jh7pv")
+script = ExtResource("2_qwsxl")
